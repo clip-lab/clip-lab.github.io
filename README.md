@@ -1,6 +1,6 @@
 # CLiP Lab website
 
-A dependency-free, single-page academic website for **CLiP Lab — Computational Linguistics & Perception Lab**. The organization site is intended for `https://clip-lab-research.github.io/`.
+A dependency-free, single-page academic website for **CLiP Lab — Computational Linguistics & Perception Lab**. The organization site is published at `https://clip-lab.github.io/`.
 
 ## Edit the site
 
@@ -22,7 +22,7 @@ Open `http://localhost:8000/` from this directory. No build step is required.
 
 ## GitHub Pages
 
-Publish from the `main` branch root in the `clip-lab-research/clip-lab-research.github.io` repository. In repository Settings → Pages, select **Deploy from a branch**, then **main** and **/(root)**. GitHub Pages will serve the site at `https://clip-lab-research.github.io/`. The `.nojekyll` file keeps the static files untouched by Jekyll.
+Publish from the `main` branch root in the `clip-lab/clip-lab.github.io` repository. In repository Settings → Pages, select **Deploy from a branch**, then **main** and **/(root)**. GitHub Pages serves the site at `https://clip-lab.github.io/`. The `.nojekyll` file keeps the static files untouched by Jekyll.
 
 ## Source checks
 
