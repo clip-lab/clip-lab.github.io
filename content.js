@@ -78,8 +78,8 @@ window.CLIP_CONTENT = {
       affiliation: "CSE undergraduate · RUET, Bangladesh",
       bio: "Multimodal AI, data-efficient learning, and faithful reasoning.",
       links: [
-        { label: "Website", url: "https://tamjid.me/" },
-        { label: "GitHub", url: "https://github.com/heytamjid" }
+        { label: "LinkedIn", url: "https://www.linkedin.com/in/tamjid-hasan-fahim/" },
+        { label: "Website", url: "https://tamjid.me/" }
       ],
       showOnWebsite: true
     },
@@ -89,8 +89,8 @@ window.CLIP_CONTENT = {
       affiliation: "CSE undergraduate · RUET, Bangladesh",
       bio: "Bengali NLP, efficient language models, multimodal AI, and model evaluation.",
       links: [
-        { label: "Website", url: "https://ahmikat.github.io/" },
-        { label: "GitHub", url: "https://github.com/ahmikat" }
+        { label: "LinkedIn", url: "https://www.linkedin.com/in/aftab-hossain-mikat" },
+        { label: "Website", url: "https://ahmikat.github.io/" }
       ],
       showOnWebsite: true
     }
