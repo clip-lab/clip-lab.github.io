@@ -48,12 +48,6 @@ content.publications.filter(item => item.showOnWebsite).forEach((item, index) =>
   document.querySelector("#publication-list").append(renderEntry(item, index, "publication"));
 });
 
-const publicSubmissions = content.submissions.filter(item => item.showOnWebsite);
-publicSubmissions.forEach((item, index) => {
-  document.querySelector("#submission-list").append(renderEntry(item, index, "submission"));
-});
-document.querySelector("#submission-empty").hidden = publicSubmissions.length > 0;
-
 content.projects.filter(item => item.showOnWebsite).forEach((item, index) => {
   document.querySelector("#project-list").append(renderEntry(item, index, "project"));
 });
@@ -74,17 +68,3 @@ content.people.filter(person => person.showOnWebsite).forEach(person => {
 });
 
 document.querySelector("#year").textContent = new Date().getFullYear();
-
-document.querySelector("#idea-form").addEventListener("submit", event => {
-  event.preventDefault();
-  const form = event.currentTarget;
-  if (!form.reportValidity()) return;
-  const fields = new FormData(form);
-  const name = String(fields.get("name")).trim();
-  const email = String(fields.get("email")).trim();
-  const idea = String(fields.get("idea")).trim();
-  if (!name || !email || !idea) return;
-  const subject = encodeURIComponent("CLiP Lab — Research collaboration idea");
-  const body = encodeURIComponent(`Hello CLiP Lab,\n\n${idea}\n\nName: ${name}\nReply to: ${email}`);
-  window.location.href = `mailto:drmikat@gmail.com,tamjidhf@gmail.com?subject=${subject}&body=${body}`;
-});

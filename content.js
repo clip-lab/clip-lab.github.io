@@ -1,25 +1,25 @@
-/* Edit research and people here. Set showOnWebsite to false until facts are public and verified. */
+/* Edit research, publications, projects, and people here. */
 window.CLIP_CONTENT = {
   researchAreas: [
     {
       title: "Natural Language Processing",
-      description: "How models represent language, understand text, and respond to linguistic variation, particularly in Bengali and other low-resource languages."
+      description: "Language modeling and evaluation for Bengali and other low-resource languages."
     },
     {
       title: "Multimodal AI & Vision-Language Models",
-      description: "How text and images can be aligned and reasoned over together, from visual question answering to understanding documents."
+      description: "Connecting text and images for visual question answering and document understanding."
     },
     {
       title: "Small and Efficient Language Models",
-      description: "Compact models and data-efficient training methods that can be studied and used when compute and training data are limited."
+      description: "Data-efficient training and compact models under limited compute."
     },
     {
       title: "Low-Resource Language Technologies",
-      description: "Language tools and benchmarks for communities with less available training data, with a particular interest in Bengali."
+      description: "Tools and benchmarks for languages with limited training data."
     },
     {
       title: "Model Pretraining, Fine-tuning & Benchmarking",
-      description: "Controlled comparisons of training objectives, adaptation strategies, distillation, and evaluation methods."
+      description: "Controlled comparisons of training objectives, adaptation, and evaluation."
     }
   ],
   publications: [
@@ -29,7 +29,7 @@ window.CLIP_CONTENT = {
       venue: "BabyLM Workshop, EMNLP 2026",
       year: 2026,
       status: "Accepted workshop paper",
-      description: "A study of training objectives for compact Bengali encoders under a strict data budget, including when to reduce dense RTD supervision during training.",
+      description: "Curriculum-guided RTD–MLM training for compact Bengali encoders under a strict data budget.",
       paperUrl: "assets/papers/BabyLM_Dense_Supervision_Gentle_Decay_Preprint.pdf",
       codeUrl: null,
       projectUrl: null,
@@ -41,32 +41,18 @@ window.CLIP_CONTENT = {
       venue: "DocInsights Workshop, EMNLP 2026 · DocSem Shared Task",
       year: 2026,
       status: "Accepted workshop paper · Poster selected",
-      description: "An analysis of document-grounded quantitative reasoning that traces many errors to visual evidence extraction and localization before calculation begins.",
+      description: "Analysis of visual evidence extraction in document-grounded quantitative reasoning.",
       paperUrl: "assets/papers/DocSem_Document_Grounded_Reasoning_Preprint.pdf",
       codeUrl: null,
       projectUrl: null,
       showOnWebsite: true
     }
   ],
-  submissions: [
-    {
-      title: "Bangla MMMU research — verify public manuscript title",
-      authors: null,
-      venue: null,
-      year: null,
-      status: null,
-      description: null,
-      paperUrl: null,
-      codeUrl: null,
-      projectUrl: null,
-      showOnWebsite: false
-    }
-  ],
   projects: [
     {
-      title: "BanglaCLIP",
+      title: "Vision-Language Alignment in Low-Resource Languages",
       status: "Ongoing research",
-      description: "Exploring Bengali image-text alignment using language and vision encoders, contrastive learning, and cross-modal evaluation.",
+      description: "Exploring image-text alignment for Bengali and other low-resource languages.",
       projectUrl: null,
       showOnWebsite: true
     },
@@ -76,30 +62,35 @@ window.CLIP_CONTENT = {
       description: "Investigating scene understanding, visual evidence, and embedded text in Bengali news images, beyond questions centered only on faces.",
       projectUrl: null,
       showOnWebsite: true
+    },
+    {
+      title: "Document Reasoning Benchmark",
+      status: "Ongoing research",
+      description: "Developing evaluation tasks for document evidence retrieval and quantitative reasoning.",
+      projectUrl: null,
+      showOnWebsite: true
     }
   ],
   people: [
     {
-      name: "Aftab Hossain Mikat",
-      initials: "AM",
+      name: "Tamjid Hasan Fahim",
+      initials: "TF",
       affiliation: "CSE undergraduate · RUET, Bangladesh",
-      bio: "Aftab studies natural language processing, compact language models, multimodal AI, low-resource language technologies, and model evaluation.",
+      bio: "Multimodal AI, data-efficient learning, and faithful reasoning.",
       links: [
-        { label: "Website", url: "https://ahmikat.github.io/" },
-        { label: "GitHub", url: "https://github.com/ahmikat" },
-        { label: "CV", url: "https://ahmikat.github.io/assets/Aftab_Hossain_Mikat_CV.pdf" }
+        { label: "Website", url: "https://tamjid.me/" },
+        { label: "GitHub", url: "https://github.com/heytamjid" }
       ],
       showOnWebsite: true
     },
     {
-      name: "Tamjid Hasan Fahim",
-      initials: "TF",
+      name: "Aftab Hossain Mikat",
+      initials: "AM",
       affiliation: "CSE undergraduate · RUET, Bangladesh",
-      bio: "Tamjid works on multimodal AI, data-efficient learning, faithful reasoning, and adaptation of pretrained models to specialized domains.",
+      bio: "Bengali NLP, efficient language models, multimodal AI, and model evaluation.",
       links: [
-        { label: "Website", url: "https://tamjid.me/" },
-        { label: "GitHub", url: "https://github.com/heytamjid" },
-        { label: "CV", url: "https://drive.google.com/file/d/1QAq8YuHKdhdORI5y49CtP6ro69B9hEdN/view?usp=sharing" }
+        { label: "Website", url: "https://ahmikat.github.io/" },
+        { label: "GitHub", url: "https://github.com/ahmikat" }
       ],
       showOnWebsite: true
     }
