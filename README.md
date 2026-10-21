@@ -8,6 +8,7 @@ A dependency-free, single-page academic website for **CLiP Lab — Computational
 - `content.js`: research areas, publications, projects, and people.
 - `styles.css`: visual design and responsive layout.
 - `script.js`: content rendering and dynamic copyright year.
+- `workshop-tracker/index.html`: standalone 2027 shared-task and workshop deadline snapshot, linked from the homepage hero. Recheck the official sources before relying on a deadline or updating this page.
 - `assets/papers/`: verified author-copy PDFs used by the publication list.
 
 Set `showOnWebsite: false` for any entry whose public details are not verified. The contact links open the visitor's email app; this site has no form backend.
